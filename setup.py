@@ -1,5 +1,3 @@
-
-
 ################################################################################
 # Copyright (C) 2016-2020 Abstract Horizon
 # All rights reserved. This program and the accompanying materials
