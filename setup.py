@@ -19,7 +19,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="pyros-client",
-    version="1.0.0",
+    version="1.0.1",
     author="Daniel Sendula",
     description="Support library for PyROS",
     long_description=long_description,
@@ -31,6 +31,9 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        'paho-mqtt',
     ],
     python_requires='>=3.6',
 )
